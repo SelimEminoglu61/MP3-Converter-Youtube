@@ -10,11 +10,11 @@
     "splash":{
       "image":"./assets/images/splash.png",
       "resizeMode":"cover",
-      "backgroundColor":"115BC3"
+      "backgroundColor":"#115BC3"
     },
     "android":{
       "foregroundImage":"./assets/images/adaptive-icon.png",
-      "backgroundColor":"115BC3"
+      "backgroundColor":"#115BC3"
     }
   }
 }
