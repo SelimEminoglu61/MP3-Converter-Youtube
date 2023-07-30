@@ -9,10 +9,10 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-import { images } from "../constants";
-import styles from "./stylehome";
+import { images } from "../../constants";
+import styles from "../stylehome";
 
-const Home = () => {
+const Youtube = () => {
   const router = useRouter();
   return (
     <SafeAreaView style={{ flex: 1 }}>
@@ -47,24 +47,9 @@ const Home = () => {
           ),
         }}
       />
-      <ScrollView>
-        <View style={styles.container}>
-          <TouchableOpacity
-            style={styles.mainBtn}
-            onPress={() => router.push("/withLink")}
-          >
-            <Text style={styles.btnText}>Link İle Bul</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.mainBtn}
-            onPress={() => router.push("/withYoutube")}
-          >
-            <Text style={styles.btnText}>Youtube'da Araştır</Text>
-          </TouchableOpacity>
-        </View>
-      </ScrollView>
+      <ScrollView></ScrollView>
     </SafeAreaView>
   );
 };
 
-export default Home;
+export default Youtube;
